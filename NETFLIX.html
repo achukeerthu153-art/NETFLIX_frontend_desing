@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NETFLIX</title>
+    <style>
+        .main1{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            filter: brightness();
+        }
+        .main11{
+            position:absolute;
+            top: 0%;
+            left:50px;
+
+        }
+        .main12{
+            position: absolute;
+            top:150px;
+            color: azure;
+            text-align: center;
+            left: 25vw;
+            right: 25vw;
+            width: 50vw;
+            font-size: x-large;
+        }
+        .main13{
+            position: absolute;
+            left: 30vw;
+            right: 25vw;
+            top:500px;
+            width: 50vw;
+          
+
+        }
+        .main13 input{
+            width: 400px;
+            height: 50px;
+            background-color: rgba(14, 14, 14, 0.5);
+            border:2px solid silver;
+            border-radius: 30px;
+        }
+        .main13 ::placeholder{
+            color: rgb(121, 118, 118);
+            padding-left: 40px;
+            font-size: larger;
+        }
+        .main13 button{
+            width: 200px;
+            height: 50px; 
+            background: rgb(190, 5, 5);
+            border-radius: 30px; 
+            color: white;
+            font-size: larger;
+        }
+        .main14{
+            position: absolute;
+            right: 100px;
+            top: 10px;
+
+        }
+        .main14 select{
+            width: 120px;
+            height: 30px;
+            background-color: rgba(14, 14, 14, 0.5);
+            border:2px solid silver;
+            border-radius: 15px;
+            color: white;
+
+        }
+        .main14 button{
+            width: 120px;
+            height: 30px;
+            background: white;
+            border-radius: 15px;
+            color:black; 
+        }
+        #im1{
+            width: 100%;
+            height: 100%;
+            filter: brightness(50%);
+        }
+        #im2{ 
+            
+            width: 150px;
+            height: 200px;
+            
+        }
+        .main2{
+            width: 100vw;
+            height: 100vh;
+            background: black;
+            position: relative;
+        }
+        .main21 {
+            position: absolute;
+            background-color: rgb(46, 45, 47);
+            color: white;
+            text-align: center;
+            top: 10px;
+            width: 700px;
+            height: 60px;
+            border-radius: 20px;
+            left:400px ;
+            transition: transform 0.3x ease, backgroundColor ;
+            color: rgb(243, 231, 231);
+        }
+        .main21:hover{
+            background-color: rgb(67, 53, 36);
+            transform: scale(1.1);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main1">
+        <img src="https://bramptonist.com/wp-content/uploads/2018/06/netflix-image.jpg" id="im1">
+        <div class="main11">
+            <img src="https://loodibee.com/wp-content/uploads/Netflix-logo.png" id="im2">
+
+        </div>
+        <div class="main12">
+            <h1>Unlimited movies,</h1>
+            <h1>TV shows and more</h1>
+            <h3>starts at ₹149. Cancel at any time.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div class="main13">
+            <table>
+                <tr>
+                    <td><input type="email" placeholder="Email Address"></td>
+                    <td><button>Get Stated ></button></td>
+                </tr>
+            </table>
+          
+        </div>
+        <div class="main14">
+            <table>
+                <tr>
+                    <td>
+                        <select> 
+                            <option>English</option>
+                            <option>தமிழ்</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button>
+                            Sign In
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class="main2"> 
+        <div class="main21">
+            <h1> Take a break,enjoy the holiday</h1>
+
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
