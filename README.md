@@ -1,0 +1,1 @@
+This project is a responsive Netflix front page clone built using HTML and CSS. It replicates the modern layout, hero section, navigation bar, and content sections of Netflix’s landing page using Flexbox, positioning, and CSS styling techniques. The project demonstrates strong front-end development skills and responsive web design fundamentals.
